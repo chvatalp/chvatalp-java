@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="601ad654-8580-435f-b28e-1a3b931aac9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JsonVat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chvatalp-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chvatalp-java.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +28,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\petrc\java-academy\chvatalp-java\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JsonVat">
     <configuration name="GreatestInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreatestInList" />
       <module name="chvatalp-java" />
@@ -47,8 +55,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonVat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JsonVat" />
+      <module name="chvatalp-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonVat" />
         <item itemvalue="Application.GreatestInList" />
       </list>
     </recent_temporary>
@@ -78,5 +94,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((com.google.gson.internal.LinkedTreeMap)((JsonObject)((ArrayList)((JsonArray)((com.google.gson.internal.LinkedTreeMap.Node)((com.google.gson.internal.LinkedTreeMap)((JsonObject)((JSONObject)elements).element).members).entrySet().toArray()[3]).getValue()).elements).get(0)).members).entrySet().toArray()[1]" custom="kong.unirest.json.JSONObject,com.google.gson.internal.LinkedTreeMap.Node,com.google.gson.internal.LinkedTreeMap,com.google.gson.JsonArray,com.google.gson.JsonObject,java.util.ArrayList" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
